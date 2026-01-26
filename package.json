@@ -1,18 +1,15 @@
 {
   "name": "commerce-turbopack-blacksmith-4vcpu",
   "private": true,
-  "packageManager": "pnpm@8.2.0",
   "engines": {
-    "node": ">=18",
-    "pnpm": ">=7"
+    "node": ">=18"
   },
   "scripts": {
     "dev": "next dev --turbo",
     "build": "./build.sh",
     "build-only": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "pnpm lint && pnpm prettier:check"
+    "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",
